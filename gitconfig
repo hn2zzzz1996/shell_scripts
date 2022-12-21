@@ -1,0 +1,23 @@
+[http]
+	proxy = proxy.com
+	cookiefile = /home/xxx/.gitcookies
+[https]
+	proxy = proxy.com
+[user]
+	email = shaoqin.huang@xxx.com
+	name = Shaoqin Huang
+[color]
+	ui = auto
+[core]
+	editor = vim
+
+[sendemail]
+	smtpserver = smtp.xxx.
+	chainreplyto = false
+	assume8bitEncoding = utf-8
+	confirm = always
+	from = shaoqin.huang@xxx.com
+[credential "github.com"]
+	useHttpPath = true
+[credential]
+	helper = store
